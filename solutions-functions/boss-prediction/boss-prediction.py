@@ -1,6 +1,6 @@
 import csv
 
-file_csv = "/home/adelfael/work-demo/boss-prediction/prediction.csv"
+file_csv = "/home/adelfael/Projects/sowlutions-app-demo/solutions-functions/boss-prediction/prediction.csv"
 
 data = []
 with open(file_csv) as f:
