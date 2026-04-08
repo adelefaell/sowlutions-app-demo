@@ -50,6 +50,7 @@ class LinkedList {
 // usage example
 
 const list = new LinkedList();
+// biome-ignore lint/suspicious/useIterableCallbackReturn: this is not an error its just cuz this is present in the expo project and not a standalone file
 [10, 5, 12, 7, 3, 9, 10].forEach(v => list.addNode(v))
 
 list.removeNodes(7)
